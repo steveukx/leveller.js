@@ -1,0 +1,16 @@
+{
+   "name":              "levellers",
+   "description":       "Tool for levelling standard JavaScript features to ECMA5 standard",
+   "version":           "0.0.1",
+   "author":            "Steve King <steve@mydev.co>",
+   "contributors":      [ { "name": "Steve King", "email": "steve@mydev.co" } ],
+   "dependencies":      {},
+   "devDependencies":   {},
+   "keywords":          ["polyfill", "polyfil", "ECMA5", "browser"],
+   "repository":        "git://github.com/steveukx/leveller.js",
+   "main":              "lib/leveller",
+   "bin":               {},
+   "scripts":           {},
+   "config":            {},
+   "engines":           { "node": ">= 0.4.1" }
+}
