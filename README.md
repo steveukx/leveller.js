@@ -19,6 +19,8 @@ Add as many of the features you require out of the following as a space separate
 
 **ecma5-object** a (currently incomplete) Object prototype polyfill, support for the hasOwnProperty prototype method and of course, Object.create
 
+**ecma5-string** support for the String prototype methods trim, trimLeft and trimRight
+
 **JSON** library from json.org, a full JSON parser for browsers without the native implementation
 
 **localStorage** the full localStorage API, note that there is no persistence when the user switches page though.
