@@ -25,6 +25,8 @@ Add as many of the features you require out of the following as a space separate
 
 **localStorage** the full localStorage API, note that there is no persistence when the user switches page though.
 
+**xhr** use the standard XMLHttpRequest object on any browser - note that if the user agent doesn't support native XMLHttpRequest and doesn't support ActiveXObject then an error will still be thrown.
+
 Some of the levellers will automatically add other levellers (for example, localStorage requires the array leveller) but those dependencies are managed for you automatically. All you need do do is list the things you are using, for example:
 
     <script src="path/to/leveller.js" data-requirements="json localStorage ecma5-function"></script>
